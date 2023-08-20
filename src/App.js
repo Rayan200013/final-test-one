@@ -11,10 +11,6 @@ import { Auth } from "./components/auth";
 function App() {
   return (
     <>
-      <div>
-        <Auth />
-        
-      </div>
       <Router>
         <div>
           <NavBar>
@@ -31,6 +27,10 @@ function App() {
         <Item name="Gully" />
         <Item name="Lucy" />
         <Item name="Rayan" />
+      </div>
+
+      <div>
+        <Auth />
       </div>
     </>
   );

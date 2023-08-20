@@ -137,8 +137,8 @@ body {
   background-position: center top;
   background-size: cover;
   background-color: #111;
-  margin: 20px;
-  border-radius: 25px;
+  /* margin: 20px; */
+  /* border-radius: 25px; */
   display: flex;
   align-content: center;
   justify-content: center;
