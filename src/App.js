@@ -19,7 +19,6 @@ function App() {
             <Route path="/contact" component={Contact} />
           </NavBar>
         </div>
-      </Router>
 
       {/* component one */}
       <div>
