@@ -1,8 +1,18 @@
-/* .App {
+.App {
   text-align: center;
 }
+.btn {
+  background-color: transparent;
+  border: 1px solid #00e676;
+  padding: 20px;
+  font-size: 30px;
+}
+.btn:hover {
+  color: #fff !important ;
+  background-color: #00e676;
+}
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }

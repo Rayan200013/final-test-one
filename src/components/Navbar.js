@@ -54,7 +54,10 @@ const NavBar = () => {
             <div id="mainListDiv" className="main_list">
               <ul className="navlinks">
                 <li>
-                  <Link to="/About">About</Link>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/About">Categories</Link>
                 </li>
                 <li>
                   <Link to="/Portfolio">Portfolio</Link>
@@ -68,7 +71,7 @@ const NavBar = () => {
               </ul>
             </div>
             <div className="for-icons">
-              <i class="fa-solid fa-user fa-xl login-user-slr"></i>
+              <i className="fa-solid fa-user fa-xl login-user-slr"></i>
             </div>
             <span className="navTrigger">
               <i></i>
@@ -78,54 +81,6 @@ const NavBar = () => {
           </div>
         </nav>
       </div>
-      <div class="home">
-        <h1 className="heading-one-slr">
-          Your gateway to Adventours Journeys in CHOUF
-        </h1>
-        <p>
-          Inspire and guide users on where to go and what to do during their
-          travel in Chouf.
-        </p>
-
-        <div id="search">
-          <input id="input" placeholder="Search..." />
-          <button id="button">
-            <i class="fa fa-search"></i>
-          </button>
-          <div class="spinner">
-            <i class="fa fa-spinner"></i>
-          </div>
-        </div>
-        {/* <div class="note">Click the button or hit enter.</div> */}
-      </div>
-      <p class="myP">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione
-        facere animi impedit rem labore sint repellendus ipsa sapiente
-        voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae
-        id inventore quod voluptate qui deserunt, quis placeat, tempora ex
-        totam, dolore sequi harum eos voluptatibus animi labore officiis minus
-        laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Ipsum ratione facere animi impedit rem labore sint repellendus ipsa
-        sapiente voluptatem aut excepturi quo itaque, ab earum cumque.
-        Voluptatem beatae id inventore quod voluptate qui deserunt, quis
-        placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi
-        labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
-        repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum
-        cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis
-        placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi
-        labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
-        repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum
-        cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis
-        placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi
-        labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
-        repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum
-        cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis
-        placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi
-        labore officiis minus laboriosam
-      </p>
     </>
   );
 };

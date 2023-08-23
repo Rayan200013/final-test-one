@@ -5,32 +5,39 @@ import Home from "./components/Home"; // Import your home component
 import About from "./components/About"; // Import your about component
 import Contact from "./components/Contact"; // Import your contact component
 import "./App.css";
-import Item from "./MyItem";
-import { Auth } from "./components/auth";
+// import { Storage } from "./config/firebase";
+// import Item from "./MyItem";
+// import { Auth } from "./components/auth";
+import StarWars from "./components/StarWars";
 
 function App() {
   return (
     <>
-      <Router>
-        <div>
-          <NavBar>
+      <div>
+        <NavBar>
+          <Router>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
-          </NavBar>
-        </div>
+          </Router>
+        </NavBar>
+      </div>
 
       {/* component one */}
       <div>
         {/* Add a route for the item */}
-        <Item name="Gully" />
+        {/* <Item name="Gully" />
         <Item name="Lucy" />
-        <Item name="Rayan" />
+        <Item name="Rayan" /> */}
       </div>
 
-      <div>
-        <Auth />
+      <div className="App">
+        <StarWars />
       </div>
+
+      {/* <div>
+        <Auth />
+      </div> */}
     </>
   );
 }
